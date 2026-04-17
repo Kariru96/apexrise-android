@@ -1,0 +1,370 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/lansky/apexrise-android/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /home/lansky/apexrise-android/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /home/lansky/apexrise-android/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /home/lansky/apexrise-android/app/src/main/AndroidManifest.xml:2:1-28:12
+MERGED from [androidx.navigation:navigation-common:2.7.7] /home/lansky/.gradle/caches/8.13/transforms/53aeab33d6a7919e717a0aeb632f1d1a/transformed/navigation-common-2.7.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] /home/lansky/.gradle/caches/8.13/transforms/01df96f8ed26944b6d394cf93975e593/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] /home/lansky/.gradle/caches/8.13/transforms/dc01a97ec4968fd8a22766e3e2306659/transformed/navigation-common-ktx-2.7.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] /home/lansky/.gradle/caches/8.13/transforms/ebd53af4a756e80d0c540ac424b6e187/transformed/navigation-runtime-ktx-2.7.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.7.7] /home/lansky/.gradle/caches/8.13/transforms/62df30be292295c2ef608c8212d7518a/transformed/navigation-compose-2.7.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime:2.6.1] /home/lansky/.gradle/caches/8.13/transforms/d29d6fbfbf5388543a60a77be6bdfa6f/transformed/room-runtime-2.6.1/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.6.1] /home/lansky/.gradle/caches/8.13/transforms/20644b1ce5ca59d9f7aad2a4276c25e1/transformed/room-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material3:material3-android:1.3.0] /home/lansky/.gradle/caches/8.13/transforms/62a62f42f8f074e26e6f806f791d8e15/transformed/material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/6423fe7cb399603bb6e4df4e4dc62e97/transformed/material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/39d4f21100ce0bceb3d458a2a5a9d077/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/50fedad34d93d96216467b95ccfa64ff/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/9b787bd5060a0e1985c099dd7bd7b062/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/3e7b1417084251f974d8e9e002f3b514/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/b84d24dc5ecf359c46692adccddaf8c5/transformed/ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/73f76954604198bc1943d3edf365795b/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/86d54f28131a94942086a4a4271de4d2/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/4fba32e830bc4f4cc8f8a26058f31d5e/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/4c98594d0014c675f4d176951d62b0f7/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/6d798166fb7caef94c3b8719a9f3a290/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/c53d6e57dfb309176918476a81868fcc/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.8.2] /home/lansky/.gradle/caches/8.13/transforms/8f0301f99cf78b5fb8d0225f906ce33c/transformed/activity-ktx-1.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.8.2] /home/lansky/.gradle/caches/8.13/transforms/26dc0cbbd9081f27a4319d72cd89ef44/transformed/activity-1.8.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-compose:1.8.2] /home/lansky/.gradle/caches/8.13/transforms/804240fe11eddf1d66d68d2b8e250836/transformed/activity-compose-1.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/5fe20847186633db25a033e5a88f6847/transformed/material-icons-extended-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/713997ab81cb5db659d101de436485c8/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/lansky/.gradle/caches/8.13/transforms/806f695fa14ecbcfc7e3d366f9fc50b1/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.autofill:autofill:1.0.0] /home/lansky/.gradle/caches/8.13/transforms/c29af46d24976605674720ce1ea9810f/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] /home/lansky/.gradle/caches/8.13/transforms/41e4156f64c4c1ca44a1af32c9ad6828/transformed/graphics-path-1.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/lansky/.gradle/caches/8.13/transforms/6dc3cba4143053dedaa7487633d04b0e/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.13.1] /home/lansky/.gradle/caches/8.13/transforms/1498ff69999e8d2775a95612e349ce2c/transformed/core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.13.1] /home/lansky/.gradle/caches/8.13/transforms/fcca961c4a259a4442bc3e08591b203d/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/lansky/.gradle/caches/8.13/transforms/50b930170bbb408eeb9a3de5daa04fad/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/lansky/.gradle/caches/8.13/transforms/be97d5f89fe2fa738c260c20380ccf26/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.3] /home/lansky/.gradle/caches/8.13/transforms/b4bc6c985f558638f3adcf37e825afef/transformed/lifecycle-livedata-core-2.8.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.3] /home/lansky/.gradle/caches/8.13/transforms/e111cd01719cc8a6513e0482b75ef447/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3] /home/lansky/.gradle/caches/8.13/transforms/24d3d074091f0d8ccad363393a5f4f1f/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.3] /home/lansky/.gradle/caches/8.13/transforms/4040101effb08827706a2d0165ff3b7d/transformed/lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /home/lansky/.gradle/caches/8.13/transforms/e5c20b5a304e7e1cd3a0bfb088b21bd6/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3] /home/lansky/.gradle/caches/8.13/transforms/ef01db3ec8564ebf9a060657a3f1c644/transformed/lifecycle-viewmodel-savedstate-2.8.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3] /home/lansky/.gradle/caches/8.13/transforms/b6ee3c5e0cf07751f7f08dbd46475c71/transformed/lifecycle-viewmodel-ktx-2.8.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.3] /home/lansky/.gradle/caches/8.13/transforms/2619f93201d522763007bff16c59f1cb/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3] /home/lansky/.gradle/caches/8.13/transforms/5951984af7d25bf182cec2c3c25399fc/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/d70935e34c719713ff5ba44e150777fa/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/0636458ef256ae2509afd746b4d51f12/transformed/ui-test-manifest-1.7.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/9bbd1991a123155cfe91a7d7429765ee/transformed/ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.animation:animation-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/0bf6176a01bae6af3aefb28cd61a1bb1/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/67de8c6566163c1d52a7f8e99c865e76/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/bc7108ea75d9332366ae2ce34a77a0d3/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/lansky/.gradle/caches/8.13/transforms/81333c385c5d2b700ecc38967a826578/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] /home/lansky/.gradle/caches/8.13/transforms/2cc4c474a02ca7b05441afe9b279131d/transformed/sqlite-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/lansky/.gradle/caches/8.13/transforms/16002a5c1c8ddac8cf3b117fa8c50893/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/lansky/.gradle/caches/8.13/transforms/e3c067b5466c6fede79d5fa5f3173120/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/lansky/.gradle/caches/8.13/transforms/083f4fa752281193acb9329020f23758/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/lansky/.gradle/caches/8.13/transforms/cf289b91683d76bd43454ab038b31977/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/lansky/.gradle/caches/8.13/transforms/ef0fc9bd0fb6d30d49a5638dee18c4bf/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/lansky/.gradle/caches/8.13/transforms/b3d0a1f4c02959dcfe3861cbb15f5f1b/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/lansky/.gradle/caches/8.13/transforms/d5dd6301dafec45f1d8c3afb066fd5e7/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /home/lansky/apexrise-android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/lansky/apexrise-android/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/lansky/apexrise-android/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/lansky/apexrise-android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/lansky/apexrise-android/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/lansky/apexrise-android/app/src/main/AndroidManifest.xml:5:5-26:19
+INJECTED from /home/lansky/apexrise-android/app/src/main/AndroidManifest.xml:5:5-26:19
+MERGED from [androidx.room:room-runtime:2.6.1] /home/lansky/.gradle/caches/8.13/transforms/d29d6fbfbf5388543a60a77be6bdfa6f/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] /home/lansky/.gradle/caches/8.13/transforms/d29d6fbfbf5388543a60a77be6bdfa6f/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/lansky/.gradle/caches/8.13/transforms/806f695fa14ecbcfc7e3d366f9fc50b1/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/lansky/.gradle/caches/8.13/transforms/806f695fa14ecbcfc7e3d366f9fc50b1/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] /home/lansky/.gradle/caches/8.13/transforms/fcca961c4a259a4442bc3e08591b203d/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /home/lansky/.gradle/caches/8.13/transforms/fcca961c4a259a4442bc3e08591b203d/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /home/lansky/.gradle/caches/8.13/transforms/e5c20b5a304e7e1cd3a0bfb088b21bd6/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /home/lansky/.gradle/caches/8.13/transforms/e5c20b5a304e7e1cd3a0bfb088b21bd6/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/0636458ef256ae2509afd746b4d51f12/transformed/ui-test-manifest-1.7.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/0636458ef256ae2509afd746b4d51f12/transformed/ui-test-manifest-1.7.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/9bbd1991a123155cfe91a7d7429765ee/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/9bbd1991a123155cfe91a7d7429765ee/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/lansky/.gradle/caches/8.13/transforms/e3c067b5466c6fede79d5fa5f3173120/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/lansky/.gradle/caches/8.13/transforms/e3c067b5466c6fede79d5fa5f3173120/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/lansky/.gradle/caches/8.13/transforms/cf289b91683d76bd43454ab038b31977/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/lansky/.gradle/caches/8.13/transforms/cf289b91683d76bd43454ab038b31977/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/lansky/.gradle/caches/8.13/transforms/ef0fc9bd0fb6d30d49a5638dee18c4bf/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/lansky/.gradle/caches/8.13/transforms/ef0fc9bd0fb6d30d49a5638dee18c4bf/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /home/lansky/apexrise-android/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /home/lansky/.gradle/caches/8.13/transforms/fcca961c4a259a4442bc3e08591b203d/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /home/lansky/apexrise-android/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /home/lansky/apexrise-android/app/src/main/AndroidManifest.xml:11:9-41
+	android:fullBackupContent
+		ADDED from /home/lansky/apexrise-android/app/src/main/AndroidManifest.xml:9:9-54
+	android:roundIcon
+		ADDED from /home/lansky/apexrise-android/app/src/main/AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from /home/lansky/apexrise-android/app/src/main/AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from /home/lansky/apexrise-android/app/src/main/AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from /home/lansky/apexrise-android/app/src/main/AndroidManifest.xml:14:9-46
+	android:dataExtractionRules
+		ADDED from /home/lansky/apexrise-android/app/src/main/AndroidManifest.xml:8:9-65
+	android:name
+		ADDED from /home/lansky/apexrise-android/app/src/main/AndroidManifest.xml:6:9-44
+activity#com.apexrise.offline.MainActivity
+ADDED from /home/lansky/apexrise-android/app/src/main/AndroidManifest.xml:15:9-25:20
+	android:label
+		ADDED from /home/lansky/apexrise-android/app/src/main/AndroidManifest.xml:18:13-45
+	android:exported
+		ADDED from /home/lansky/apexrise-android/app/src/main/AndroidManifest.xml:17:13-36
+	android:theme
+		ADDED from /home/lansky/apexrise-android/app/src/main/AndroidManifest.xml:19:13-50
+	android:name
+		ADDED from /home/lansky/apexrise-android/app/src/main/AndroidManifest.xml:16:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/lansky/apexrise-android/app/src/main/AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from /home/lansky/apexrise-android/app/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /home/lansky/apexrise-android/app/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/lansky/apexrise-android/app/src/main/AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from /home/lansky/apexrise-android/app/src/main/AndroidManifest.xml:23:27-74
+uses-sdk
+INJECTED from /home/lansky/apexrise-android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/lansky/apexrise-android/app/src/main/AndroidManifest.xml
+INJECTED from /home/lansky/apexrise-android/app/src/main/AndroidManifest.xml
+MERGED from [androidx.navigation:navigation-common:2.7.7] /home/lansky/.gradle/caches/8.13/transforms/53aeab33d6a7919e717a0aeb632f1d1a/transformed/navigation-common-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.7] /home/lansky/.gradle/caches/8.13/transforms/53aeab33d6a7919e717a0aeb632f1d1a/transformed/navigation-common-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] /home/lansky/.gradle/caches/8.13/transforms/01df96f8ed26944b6d394cf93975e593/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] /home/lansky/.gradle/caches/8.13/transforms/01df96f8ed26944b6d394cf93975e593/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] /home/lansky/.gradle/caches/8.13/transforms/dc01a97ec4968fd8a22766e3e2306659/transformed/navigation-common-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] /home/lansky/.gradle/caches/8.13/transforms/dc01a97ec4968fd8a22766e3e2306659/transformed/navigation-common-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] /home/lansky/.gradle/caches/8.13/transforms/ebd53af4a756e80d0c540ac424b6e187/transformed/navigation-runtime-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] /home/lansky/.gradle/caches/8.13/transforms/ebd53af4a756e80d0c540ac424b6e187/transformed/navigation-runtime-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.7] /home/lansky/.gradle/caches/8.13/transforms/62df30be292295c2ef608c8212d7518a/transformed/navigation-compose-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.7] /home/lansky/.gradle/caches/8.13/transforms/62df30be292295c2ef608c8212d7518a/transformed/navigation-compose-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /home/lansky/.gradle/caches/8.13/transforms/d29d6fbfbf5388543a60a77be6bdfa6f/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /home/lansky/.gradle/caches/8.13/transforms/d29d6fbfbf5388543a60a77be6bdfa6f/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /home/lansky/.gradle/caches/8.13/transforms/20644b1ce5ca59d9f7aad2a4276c25e1/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /home/lansky/.gradle/caches/8.13/transforms/20644b1ce5ca59d9f7aad2a4276c25e1/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.0] /home/lansky/.gradle/caches/8.13/transforms/62a62f42f8f074e26e6f806f791d8e15/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.0] /home/lansky/.gradle/caches/8.13/transforms/62a62f42f8f074e26e6f806f791d8e15/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/6423fe7cb399603bb6e4df4e4dc62e97/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/6423fe7cb399603bb6e4df4e4dc62e97/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/39d4f21100ce0bceb3d458a2a5a9d077/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/39d4f21100ce0bceb3d458a2a5a9d077/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/50fedad34d93d96216467b95ccfa64ff/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/50fedad34d93d96216467b95ccfa64ff/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/9b787bd5060a0e1985c099dd7bd7b062/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/9b787bd5060a0e1985c099dd7bd7b062/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/3e7b1417084251f974d8e9e002f3b514/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/3e7b1417084251f974d8e9e002f3b514/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/b84d24dc5ecf359c46692adccddaf8c5/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/b84d24dc5ecf359c46692adccddaf8c5/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/73f76954604198bc1943d3edf365795b/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/73f76954604198bc1943d3edf365795b/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/86d54f28131a94942086a4a4271de4d2/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/86d54f28131a94942086a4a4271de4d2/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/4fba32e830bc4f4cc8f8a26058f31d5e/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/4fba32e830bc4f4cc8f8a26058f31d5e/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/4c98594d0014c675f4d176951d62b0f7/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/4c98594d0014c675f4d176951d62b0f7/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/6d798166fb7caef94c3b8719a9f3a290/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/6d798166fb7caef94c3b8719a9f3a290/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/c53d6e57dfb309176918476a81868fcc/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/c53d6e57dfb309176918476a81868fcc/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] /home/lansky/.gradle/caches/8.13/transforms/8f0301f99cf78b5fb8d0225f906ce33c/transformed/activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] /home/lansky/.gradle/caches/8.13/transforms/8f0301f99cf78b5fb8d0225f906ce33c/transformed/activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.8.2] /home/lansky/.gradle/caches/8.13/transforms/26dc0cbbd9081f27a4319d72cd89ef44/transformed/activity-1.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] /home/lansky/.gradle/caches/8.13/transforms/26dc0cbbd9081f27a4319d72cd89ef44/transformed/activity-1.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.8.2] /home/lansky/.gradle/caches/8.13/transforms/804240fe11eddf1d66d68d2b8e250836/transformed/activity-compose-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.2] /home/lansky/.gradle/caches/8.13/transforms/804240fe11eddf1d66d68d2b8e250836/transformed/activity-compose-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/5fe20847186633db25a033e5a88f6847/transformed/material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/5fe20847186633db25a033e5a88f6847/transformed/material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/713997ab81cb5db659d101de436485c8/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/713997ab81cb5db659d101de436485c8/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/lansky/.gradle/caches/8.13/transforms/806f695fa14ecbcfc7e3d366f9fc50b1/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/lansky/.gradle/caches/8.13/transforms/806f695fa14ecbcfc7e3d366f9fc50b1/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /home/lansky/.gradle/caches/8.13/transforms/c29af46d24976605674720ce1ea9810f/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /home/lansky/.gradle/caches/8.13/transforms/c29af46d24976605674720ce1ea9810f/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-path:1.0.1] /home/lansky/.gradle/caches/8.13/transforms/41e4156f64c4c1ca44a1af32c9ad6828/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /home/lansky/.gradle/caches/8.13/transforms/41e4156f64c4c1ca44a1af32c9ad6828/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/lansky/.gradle/caches/8.13/transforms/6dc3cba4143053dedaa7487633d04b0e/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/lansky/.gradle/caches/8.13/transforms/6dc3cba4143053dedaa7487633d04b0e/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.13.1] /home/lansky/.gradle/caches/8.13/transforms/1498ff69999e8d2775a95612e349ce2c/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /home/lansky/.gradle/caches/8.13/transforms/1498ff69999e8d2775a95612e349ce2c/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.13.1] /home/lansky/.gradle/caches/8.13/transforms/fcca961c4a259a4442bc3e08591b203d/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /home/lansky/.gradle/caches/8.13/transforms/fcca961c4a259a4442bc3e08591b203d/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/lansky/.gradle/caches/8.13/transforms/50b930170bbb408eeb9a3de5daa04fad/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/lansky/.gradle/caches/8.13/transforms/50b930170bbb408eeb9a3de5daa04fad/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/lansky/.gradle/caches/8.13/transforms/be97d5f89fe2fa738c260c20380ccf26/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/lansky/.gradle/caches/8.13/transforms/be97d5f89fe2fa738c260c20380ccf26/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.3] /home/lansky/.gradle/caches/8.13/transforms/b4bc6c985f558638f3adcf37e825afef/transformed/lifecycle-livedata-core-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.3] /home/lansky/.gradle/caches/8.13/transforms/b4bc6c985f558638f3adcf37e825afef/transformed/lifecycle-livedata-core-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.3] /home/lansky/.gradle/caches/8.13/transforms/e111cd01719cc8a6513e0482b75ef447/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.3] /home/lansky/.gradle/caches/8.13/transforms/e111cd01719cc8a6513e0482b75ef447/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3] /home/lansky/.gradle/caches/8.13/transforms/24d3d074091f0d8ccad363393a5f4f1f/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3] /home/lansky/.gradle/caches/8.13/transforms/24d3d074091f0d8ccad363393a5f4f1f/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.3] /home/lansky/.gradle/caches/8.13/transforms/4040101effb08827706a2d0165ff3b7d/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.3] /home/lansky/.gradle/caches/8.13/transforms/4040101effb08827706a2d0165ff3b7d/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /home/lansky/.gradle/caches/8.13/transforms/e5c20b5a304e7e1cd3a0bfb088b21bd6/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /home/lansky/.gradle/caches/8.13/transforms/e5c20b5a304e7e1cd3a0bfb088b21bd6/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3] /home/lansky/.gradle/caches/8.13/transforms/ef01db3ec8564ebf9a060657a3f1c644/transformed/lifecycle-viewmodel-savedstate-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3] /home/lansky/.gradle/caches/8.13/transforms/ef01db3ec8564ebf9a060657a3f1c644/transformed/lifecycle-viewmodel-savedstate-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3] /home/lansky/.gradle/caches/8.13/transforms/b6ee3c5e0cf07751f7f08dbd46475c71/transformed/lifecycle-viewmodel-ktx-2.8.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3] /home/lansky/.gradle/caches/8.13/transforms/b6ee3c5e0cf07751f7f08dbd46475c71/transformed/lifecycle-viewmodel-ktx-2.8.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.3] /home/lansky/.gradle/caches/8.13/transforms/2619f93201d522763007bff16c59f1cb/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.3] /home/lansky/.gradle/caches/8.13/transforms/2619f93201d522763007bff16c59f1cb/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3] /home/lansky/.gradle/caches/8.13/transforms/5951984af7d25bf182cec2c3c25399fc/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3] /home/lansky/.gradle/caches/8.13/transforms/5951984af7d25bf182cec2c3c25399fc/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/d70935e34c719713ff5ba44e150777fa/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/d70935e34c719713ff5ba44e150777fa/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/0636458ef256ae2509afd746b4d51f12/transformed/ui-test-manifest-1.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/0636458ef256ae2509afd746b4d51f12/transformed/ui-test-manifest-1.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/9bbd1991a123155cfe91a7d7429765ee/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/9bbd1991a123155cfe91a7d7429765ee/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/0bf6176a01bae6af3aefb28cd61a1bb1/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/0bf6176a01bae6af3aefb28cd61a1bb1/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/67de8c6566163c1d52a7f8e99c865e76/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/67de8c6566163c1d52a7f8e99c865e76/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/bc7108ea75d9332366ae2ce34a77a0d3/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/bc7108ea75d9332366ae2ce34a77a0d3/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/lansky/.gradle/caches/8.13/transforms/81333c385c5d2b700ecc38967a826578/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/lansky/.gradle/caches/8.13/transforms/81333c385c5d2b700ecc38967a826578/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /home/lansky/.gradle/caches/8.13/transforms/2cc4c474a02ca7b05441afe9b279131d/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /home/lansky/.gradle/caches/8.13/transforms/2cc4c474a02ca7b05441afe9b279131d/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/lansky/.gradle/caches/8.13/transforms/16002a5c1c8ddac8cf3b117fa8c50893/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/lansky/.gradle/caches/8.13/transforms/16002a5c1c8ddac8cf3b117fa8c50893/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/lansky/.gradle/caches/8.13/transforms/e3c067b5466c6fede79d5fa5f3173120/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/lansky/.gradle/caches/8.13/transforms/e3c067b5466c6fede79d5fa5f3173120/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/lansky/.gradle/caches/8.13/transforms/083f4fa752281193acb9329020f23758/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/lansky/.gradle/caches/8.13/transforms/083f4fa752281193acb9329020f23758/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/lansky/.gradle/caches/8.13/transforms/cf289b91683d76bd43454ab038b31977/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/lansky/.gradle/caches/8.13/transforms/cf289b91683d76bd43454ab038b31977/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/lansky/.gradle/caches/8.13/transforms/ef0fc9bd0fb6d30d49a5638dee18c4bf/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/lansky/.gradle/caches/8.13/transforms/ef0fc9bd0fb6d30d49a5638dee18c4bf/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/lansky/.gradle/caches/8.13/transforms/b3d0a1f4c02959dcfe3861cbb15f5f1b/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/lansky/.gradle/caches/8.13/transforms/b3d0a1f4c02959dcfe3861cbb15f5f1b/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/lansky/.gradle/caches/8.13/transforms/d5dd6301dafec45f1d8c3afb066fd5e7/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/lansky/.gradle/caches/8.13/transforms/d5dd6301dafec45f1d8c3afb066fd5e7/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /home/lansky/apexrise-android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/lansky/apexrise-android/app/src/main/AndroidManifest.xml
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] /home/lansky/.gradle/caches/8.13/transforms/d29d6fbfbf5388543a60a77be6bdfa6f/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/lansky/.gradle/caches/8.13/transforms/d29d6fbfbf5388543a60a77be6bdfa6f/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/lansky/.gradle/caches/8.13/transforms/d29d6fbfbf5388543a60a77be6bdfa6f/transformed/room-runtime-2.6.1/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/lansky/.gradle/caches/8.13/transforms/d29d6fbfbf5388543a60a77be6bdfa6f/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/lansky/.gradle/caches/8.13/transforms/d29d6fbfbf5388543a60a77be6bdfa6f/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/lansky/.gradle/caches/8.13/transforms/806f695fa14ecbcfc7e3d366f9fc50b1/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /home/lansky/.gradle/caches/8.13/transforms/e5c20b5a304e7e1cd3a0bfb088b21bd6/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /home/lansky/.gradle/caches/8.13/transforms/e5c20b5a304e7e1cd3a0bfb088b21bd6/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/lansky/.gradle/caches/8.13/transforms/cf289b91683d76bd43454ab038b31977/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/lansky/.gradle/caches/8.13/transforms/cf289b91683d76bd43454ab038b31977/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/lansky/.gradle/caches/8.13/transforms/ef0fc9bd0fb6d30d49a5638dee18c4bf/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/lansky/.gradle/caches/8.13/transforms/ef0fc9bd0fb6d30d49a5638dee18c4bf/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/lansky/.gradle/caches/8.13/transforms/806f695fa14ecbcfc7e3d366f9fc50b1/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/lansky/.gradle/caches/8.13/transforms/806f695fa14ecbcfc7e3d366f9fc50b1/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/lansky/.gradle/caches/8.13/transforms/806f695fa14ecbcfc7e3d366f9fc50b1/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/lansky/.gradle/caches/8.13/transforms/806f695fa14ecbcfc7e3d366f9fc50b1/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/lansky/.gradle/caches/8.13/transforms/806f695fa14ecbcfc7e3d366f9fc50b1/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/lansky/.gradle/caches/8.13/transforms/806f695fa14ecbcfc7e3d366f9fc50b1/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/lansky/.gradle/caches/8.13/transforms/806f695fa14ecbcfc7e3d366f9fc50b1/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/lansky/.gradle/caches/8.13/transforms/fcca961c4a259a4442bc3e08591b203d/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /home/lansky/.gradle/caches/8.13/transforms/fcca961c4a259a4442bc3e08591b203d/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/lansky/.gradle/caches/8.13/transforms/fcca961c4a259a4442bc3e08591b203d/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.apexrise.offline.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/lansky/.gradle/caches/8.13/transforms/fcca961c4a259a4442bc3e08591b203d/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /home/lansky/.gradle/caches/8.13/transforms/fcca961c4a259a4442bc3e08591b203d/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/lansky/.gradle/caches/8.13/transforms/fcca961c4a259a4442bc3e08591b203d/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/lansky/.gradle/caches/8.13/transforms/fcca961c4a259a4442bc3e08591b203d/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/lansky/.gradle/caches/8.13/transforms/fcca961c4a259a4442bc3e08591b203d/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.apexrise.offline.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/lansky/.gradle/caches/8.13/transforms/fcca961c4a259a4442bc3e08591b203d/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/lansky/.gradle/caches/8.13/transforms/fcca961c4a259a4442bc3e08591b203d/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.3] /home/lansky/.gradle/caches/8.13/transforms/e5c20b5a304e7e1cd3a0bfb088b21bd6/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.3] /home/lansky/.gradle/caches/8.13/transforms/e5c20b5a304e7e1cd3a0bfb088b21bd6/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.3] /home/lansky/.gradle/caches/8.13/transforms/e5c20b5a304e7e1cd3a0bfb088b21bd6/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:30:17-78
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/0636458ef256ae2509afd746b4d51f12/transformed/ui-test-manifest-1.7.0/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/0636458ef256ae2509afd746b4d51f12/transformed/ui-test-manifest-1.7.0/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/0636458ef256ae2509afd746b4d51f12/transformed/ui-test-manifest-1.7.0/AndroidManifest.xml:24:13-63
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/9bbd1991a123155cfe91a7d7429765ee/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/9bbd1991a123155cfe91a7d7429765ee/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.0] /home/lansky/.gradle/caches/8.13/transforms/9bbd1991a123155cfe91a7d7429765ee/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/lansky/.gradle/caches/8.13/transforms/cf289b91683d76bd43454ab038b31977/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/lansky/.gradle/caches/8.13/transforms/cf289b91683d76bd43454ab038b31977/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/lansky/.gradle/caches/8.13/transforms/cf289b91683d76bd43454ab038b31977/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/lansky/.gradle/caches/8.13/transforms/cf289b91683d76bd43454ab038b31977/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/lansky/.gradle/caches/8.13/transforms/cf289b91683d76bd43454ab038b31977/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/lansky/.gradle/caches/8.13/transforms/cf289b91683d76bd43454ab038b31977/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/lansky/.gradle/caches/8.13/transforms/cf289b91683d76bd43454ab038b31977/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/lansky/.gradle/caches/8.13/transforms/cf289b91683d76bd43454ab038b31977/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/lansky/.gradle/caches/8.13/transforms/cf289b91683d76bd43454ab038b31977/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/lansky/.gradle/caches/8.13/transforms/cf289b91683d76bd43454ab038b31977/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/lansky/.gradle/caches/8.13/transforms/cf289b91683d76bd43454ab038b31977/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/lansky/.gradle/caches/8.13/transforms/cf289b91683d76bd43454ab038b31977/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/lansky/.gradle/caches/8.13/transforms/cf289b91683d76bd43454ab038b31977/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/lansky/.gradle/caches/8.13/transforms/cf289b91683d76bd43454ab038b31977/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/lansky/.gradle/caches/8.13/transforms/cf289b91683d76bd43454ab038b31977/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/lansky/.gradle/caches/8.13/transforms/cf289b91683d76bd43454ab038b31977/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/lansky/.gradle/caches/8.13/transforms/cf289b91683d76bd43454ab038b31977/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/lansky/.gradle/caches/8.13/transforms/cf289b91683d76bd43454ab038b31977/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/lansky/.gradle/caches/8.13/transforms/cf289b91683d76bd43454ab038b31977/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/lansky/.gradle/caches/8.13/transforms/cf289b91683d76bd43454ab038b31977/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/lansky/.gradle/caches/8.13/transforms/cf289b91683d76bd43454ab038b31977/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
