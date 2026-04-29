@@ -17,6 +17,15 @@ interface MilkRecordDao {
     @Query("SELECT * FROM milk_records WHERE cow_id = :cowId AND date = :date LIMIT 1;")
     fun observeByCowAndDate(cowId: Long, date: String): Flow<MilkRecordEntity?>
 
+    @Query("SELECT * FROM milk_records WHERE id = :recordId LIMIT 1;")
+    suspend fun getRecordById(recordId: Long): MilkRecordEntity?
+
+    @Query("SELECT * FROM milk_records WHERE timestamp > :lastSyncTime AND last_synced_at IS NULL ORDER BY timestamp DESC;")
+    suspend fun getUnsyncedRecords(lastSyncTime: Long): List<MilkRecordEntity>
+
+    @Query("UPDATE milk_records SET last_synced_at = :syncTime WHERE timestamp <= :beforeTimestamp AND last_synced_at IS NULL;")
+    suspend fun updateSyncedRecords(beforeTimestamp: Long, syncTime: Long)
+
     @Query(
         """
         SELECT COALESCE(SUM(session_1 + session_2 + session_3 + session_4), 0.0)

@@ -18,5 +18,9 @@ data class ExpenseEntity(
     val category: String,
     val amount: Double,
     val description: String? = null,
+    @ColumnInfo(name = "timestamp")
+    val timestamp: Long = System.currentTimeMillis(),
+    @ColumnInfo(name = "last_synced_at")
+    val lastSyncedAt: Long? = null,
 )
 

@@ -36,5 +36,9 @@ data class MilkRecordEntity(
     @ColumnInfo(name = "session_4")
     val session4: Double = 0.0,
     val notes: String? = null,
+    @ColumnInfo(name = "timestamp")
+    val timestamp: Long = System.currentTimeMillis(),
+    @ColumnInfo(name = "last_synced_at")
+    val lastSyncedAt: Long? = null,
 )
 

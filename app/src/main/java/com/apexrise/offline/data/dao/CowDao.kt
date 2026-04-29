@@ -20,6 +20,15 @@ interface CowDao {
     @Query("SELECT COUNT(*) FROM cows;")
     fun observeCount(): Flow<Int>
 
+    @Query("SELECT * FROM cows WHERE id = :cowId LIMIT 1;")
+    suspend fun getCowById(cowId: Long): CowEntity?
+
+    @Query("SELECT * FROM cows WHERE timestamp > :lastSyncTime AND last_synced_at IS NULL ORDER BY timestamp DESC;")
+    suspend fun getUnsyncedCows(lastSyncTime: Long): List<CowEntity>
+
+    @Query("UPDATE cows SET last_synced_at = :syncTime WHERE timestamp <= :beforeTimestamp AND last_synced_at IS NULL;")
+    suspend fun updateSyncedCows(beforeTimestamp: Long, syncTime: Long)
+
     @Insert(onConflict = OnConflictStrategy.ABORT)
     suspend fun insert(cow: CowEntity): Long
 

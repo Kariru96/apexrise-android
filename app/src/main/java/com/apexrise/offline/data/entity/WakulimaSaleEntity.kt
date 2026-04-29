@@ -22,5 +22,9 @@ data class WakulimaSaleEntity(
     @ColumnInfo(name = "session_3")
     val session3: Double = 0.0,
     val litres: Double = 0.0,
+    @ColumnInfo(name = "timestamp")
+    val timestamp: Long = System.currentTimeMillis(),
+    @ColumnInfo(name = "last_synced_at")
+    val lastSyncedAt: Long? = null,
 )
 

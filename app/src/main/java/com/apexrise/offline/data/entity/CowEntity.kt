@@ -22,5 +22,9 @@ data class CowEntity(
     val purchaseDate: String? = null,
     @ColumnInfo(name = "purchase_cost")
     val purchaseCost: Double? = null,
+    @ColumnInfo(name = "timestamp")
+    val timestamp: Long = System.currentTimeMillis(),
+    @ColumnInfo(name = "last_synced_at")
+    val lastSyncedAt: Long? = null,
 )
 

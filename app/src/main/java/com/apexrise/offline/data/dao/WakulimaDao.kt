@@ -21,6 +21,15 @@ interface WakulimaDao {
     )
     fun observeSalesInRange(startDate: String, endDate: String): Flow<List<WakulimaSaleEntity>>
 
+    @Query("SELECT * FROM milk_sales WHERE id = :saleId LIMIT 1;")
+    suspend fun getSaleById(saleId: Long): WakulimaSaleEntity?
+
+    @Query("SELECT * FROM milk_sales WHERE timestamp > :lastSyncTime AND last_synced_at IS NULL ORDER BY timestamp DESC;")
+    suspend fun getUnsyncedSales(lastSyncTime: Long): List<WakulimaSaleEntity>
+
+    @Query("UPDATE milk_sales SET last_synced_at = :syncTime WHERE timestamp <= :beforeTimestamp AND last_synced_at IS NULL;")
+    suspend fun updateSyncedSales(beforeTimestamp: Long, syncTime: Long)
+
     @Query(
         """
         SELECT COALESCE(SUM(session_1), 0.0) AS session_1_total,
