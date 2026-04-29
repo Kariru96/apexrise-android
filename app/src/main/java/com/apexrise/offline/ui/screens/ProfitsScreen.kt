@@ -78,11 +78,15 @@ fun ProfitsScreen(navController: NavHostController) {
             MetricCard("Revenue", Formatters.money(uiState.revenue), modifier = Modifier.weight(1f))
             MetricCard("Expenses", Formatters.money(uiState.expenses), modifier = Modifier.weight(1f))
         }
-        MetricCard("Net profit", Formatters.money(uiState.netProfit), modifier = Modifier.fillMaxWidth())
+        Row(horizontalArrangement = Arrangement.spacedBy(12.dp), modifier = Modifier.fillMaxWidth()) {
+            MetricCard("Net profit", Formatters.money(uiState.netProfit), modifier = Modifier.weight(1f))
+            MetricCard("Feeds", Formatters.money(uiState.feedExpenses), modifier = Modifier.weight(1f))
+        }
 
         Card(modifier = Modifier.fillMaxWidth()) {
             Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
-                Text("Wakulima monthly rate", style = androidx.compose.material3.MaterialTheme.typography.titleMedium)
+                Text("Wakulima dairy", style = androidx.compose.material3.MaterialTheme.typography.titleMedium)
+                Text("Wakulima monthly rate", style = androidx.compose.material3.MaterialTheme.typography.bodyLarge)
                 OutlinedTextField(
                     value = rate,
                     onValueChange = { rate = it },
@@ -105,7 +109,7 @@ fun ProfitsScreen(navController: NavHostController) {
                 Spacer(Modifier.height(6.dp))
                 Text("Wakulima totals", style = androidx.compose.material3.MaterialTheme.typography.titleMedium)
                 Text(
-                    "S1 ${Formatters.litres(uiState.salesTotals.session1Total)} · S2 ${Formatters.litres(uiState.salesTotals.session2Total)} · S3 ${Formatters.litres(uiState.salesTotals.session3Total)} · Litres ${Formatters.litres(uiState.salesTotals.litresTotal)}",
+                    "S1 ${Formatters.litres(uiState.salesTotals.session1Total)} · S2 ${Formatters.litres(uiState.salesTotals.session2Total)} · S3 ${Formatters.litres(uiState.salesTotals.session3Total)} · Litres ${Formatters.litres(uiState.salesTotals.litresTotal)} · Feeds ${Formatters.money(uiState.feedExpenses)}",
                     color = androidx.compose.material3.MaterialTheme.colorScheme.onSurfaceVariant,
                 )
             }
@@ -175,6 +179,10 @@ fun ProfitsScreen(navController: NavHostController) {
             Card(modifier = Modifier.fillMaxWidth()) {
                 Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
                     Text("Wakulima records", style = androidx.compose.material3.MaterialTheme.typography.titleMedium)
+                    Text(
+                        "Feed cost this month: ${Formatters.money(uiState.feedExpenses)}",
+                        color = androidx.compose.material3.MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
                     LazyColumn(verticalArrangement = Arrangement.spacedBy(10.dp)) {
                         items(uiState.sales) { s ->
                             Card(modifier = Modifier.fillMaxWidth()) {

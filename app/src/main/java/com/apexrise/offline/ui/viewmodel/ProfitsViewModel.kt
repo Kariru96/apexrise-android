@@ -23,6 +23,7 @@ data class ProfitsUiState(
     val salesTotals: WakulimaSalesTotalsRow = WakulimaSalesTotalsRow(0.0, 0.0, 0.0, 0.0),
     val sales: List<WakulimaSaleEntity> = emptyList(),
     val expensesList: List<ExpenseEntity> = emptyList(),
+    val feedExpenses: Double = 0.0,
     val revenue: Double = 0.0,
     val expenses: Double = 0.0,
     val netProfit: Double = 0.0,
@@ -46,6 +47,7 @@ class ProfitsViewModel(private val db: ApexRiseDatabase) : ViewModel() {
                 val expensesSumFlow = db.expenseDao().observeSumInRange(start, end)
                 combine(rateFlow, salesTotalsFlow, salesFlow, expensesFlow, expensesSumFlow) { rate, totals, sales, expensesList, expensesSum ->
                     val revenue = rate?.let { totals.litresTotal * it } ?: 0.0
+                    val feedExpenses = expensesList.filter { it.category.equals("Feed", ignoreCase = true) }.sumOf { it.amount }
                     val net = revenue - expensesSum
                     ProfitsUiState(
                         month = m,
@@ -53,6 +55,7 @@ class ProfitsViewModel(private val db: ApexRiseDatabase) : ViewModel() {
                         salesTotals = totals,
                         sales = sales,
                         expensesList = expensesList,
+                        feedExpenses = feedExpenses,
                         revenue = revenue,
                         expenses = expensesSum,
                         netProfit = net,
