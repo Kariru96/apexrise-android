@@ -12,10 +12,26 @@ This is the backend for the multi-user ApexRise farm management system.
 ## Setup
 
 ### 1. Prerequisites
-- Java 17+
+- Java 17+ (JDK, not just JRE - includes javac compiler)
 - Maven 3.8+
 - PostgreSQL 13+
 - Git
+
+#### Installation Commands (Ubuntu/Debian)
+
+```bash
+# Install JDK 17 (includes compiler)
+sudo apt update
+sudo apt install openjdk-17-jdk
+
+# Install Maven
+sudo apt install maven
+
+# Verify installations
+java -version
+javac -version
+mvn -version
+```
 
 ### 2. Create the project
 
